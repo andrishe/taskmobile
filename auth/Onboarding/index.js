@@ -2,8 +2,9 @@ import React from "react";
 import { Image, View, Text, Button as RNButton } from "react-native";
 import styles from "./styles";
 import Button from "../../components/Button/index.js";
+import colors from "../../components/constants/colors.js";
 
-const Onboarding = () => {
+const Onboarding = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={{ flex: 1 }}>
@@ -19,8 +20,15 @@ const Onboarding = () => {
           Get organized by working out all our task and boost your productivity
         </Text>
 
-        <Button>Login</Button>
-        <Button>Get started</Button>
+        <Button
+          firstText={{ color: colors.septenary }}
+          onPress={() => navigation.navigate("Signin")}
+        >
+          Login
+        </Button>
+        <Button type={"blue"} onPress={() => navigation.navigate("Signup")}>
+          Get started
+        </Button>
       </View>
     </View>
   );

@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
-// import colors from "../../constants/colors.js";
+import colors from "../constants/colors.js";
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#968aff",
+    backgroundColor: colors.secondary,
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
@@ -12,9 +12,12 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   text: {
-    color: "#fff",
+    color: colors.quaternary,
     fontSize: 16,
-    fontWeight: "600",
+    fontWeight: "bold",
+  },
+  blueBg: {
+    backgroundColor: colors.septenary,
   },
 });
 
