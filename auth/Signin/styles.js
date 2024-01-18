@@ -9,9 +9,12 @@ const styles = StyleSheet.create({
   footerText: {
     fontSize: 16,
     color: colors.blText,
+    textAlign: "center",
+    marginTop: 28,
   },
   footLink: {
-    color: colors.p,
+    color: colors.septenary,
+    fontWeight: "bold",
   },
 });
 

@@ -6,27 +6,17 @@ import colors from "../../components/constants/colors.js";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginHorizontal: 24,
   },
-
-  image: {
-    width: "100%",
-    flex: 1,
-  },
-  content: {
-    padding: 46,
-    paddingTop: 12,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    color: colors.primary,
-    textAlign: "center",
-  },
-  subtitle: {
+  footerText: {
     fontSize: 16,
-    color: colors.quinary,
+    color: colors.blText,
     textAlign: "center",
-    marginVertical: 16,
+    marginTop: 28,
+  },
+  footLink: {
+    color: colors.septenary,
+    fontWeight: "bold",
   },
 });
 

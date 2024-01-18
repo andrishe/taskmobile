@@ -3,7 +3,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import "react-native-gesture-handler";
-import Signup from "./auth/Signin";
+import Signup from "./auth/Signup";
 import Signin from "./auth/Signin";
 
 const stack = createStackNavigator();

@@ -6,7 +6,7 @@ const colors = {
   quinary: "#292020",
   senary: "#968aff",
   septenary: "#38189a",
-  blCiel: "#e7e7e7",
+  blCiel: "#cccaca75",
   blText: "#b9b6f9",
 };
 
